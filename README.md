@@ -1,24 +1,37 @@
-# vue-auth
+# Word loader
 
-## Project setup
+Цель проекта: ускорить и улучшить процесс изучения новых слов английского языка.
+
+Состав команды: Прохоров Сергей @prokhorov_spasskoye бэк/лид
+
+Алексей Угрюмов @UgryumovAlex бэк/владелец
+
+Шуляев Александр @shulyaevalex фронт
+
+Дмитрий Загрядский @All_Right_D бэк
+
+Доска: https://prokhorovspasskoye.kaiten.ru/space/97721
+
+Git back: https://github.com/prokhorovspasskoe/Word-loader/
+
+ТЗ: Сделать веб приложение по изучению слов с применением стека Java, Spring, SpringBoot, SpringSecurity, PostgreSQL, Vue.js.
+
+Приложение должно иметь функционал регистрации нового пользователя и возможность входить по логину/паролю в своё рабочее пространство, где пользователь сможет добавлять английские слова с переводом и получать английские слова, писать к ним перевод. В зависимости от правильности перевода пользователь будет получать ответ системы верно/не верно. Слова с не верным переводом будут отправляться на повторное изучение.
+
+Запуск приложения локально:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Режим разработчика:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+Продакшн:
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Кастомные конфигурации:
+https://cli.vuejs.org/config/
