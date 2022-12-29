@@ -15,13 +15,13 @@ export default {
 
 <template>
   <div class="hide-word">
-    <!--<h2 class="word">
-      <span v-if="randomWordEnglish"> {{ randomWordEnglish }} </span>
+    <h2 class="word">
+      <!--<span v-if="randomWordEnglish"> {{ randomWordEnglish }} </span>
       <span v-else>?</span>
       <i class="fas fa-long-arrow-alt-right"></i>
       <span v-if="randomWordTurkish"> {{ randomWordTurkish }} </span>
-      <span v-else>?</span>
-    </h2>-->
+      <span v-else>?</span>-->
+    </h2>
   </div>
 </template>
 

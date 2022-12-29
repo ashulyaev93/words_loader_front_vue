@@ -23,6 +23,12 @@ export default {
 </script>
 
 <template>
+  <header class="p-3 bg-dark text-white">
+    <div class="text-end">
+      <router-link to="/logout" class="btn btn-danger">Logout</router-link>
+    </div>
+  </header>
+
   <div class="wrapper">
     <div class="grid grid-center">
       <Search :randomData="searchWord" class="col col-12 col-md-4" />
