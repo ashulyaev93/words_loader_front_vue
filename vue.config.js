@@ -3,7 +3,7 @@ module.exports = {
     // proxy all webpack dev-server requests starting with /api/v1
     devServer: {
       proxy: {
-        '/api/v1': {
+        '': {
           target: 'http://localhost:8081', // this configuration needs to correspond to the Spring Boot backends' application.properties server.port
           ws: true,
           changeOrigin: true
